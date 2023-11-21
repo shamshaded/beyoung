@@ -82,9 +82,9 @@ export default function LogIn(props) {
                 // Refresh the page
                 window.location.reload();
             }
-	##else{
-			
-		}
+	else{
+                alert(response?.data?.message)
+            }
         } catch (error) {
             console.error("Error fetching data: ", error);
         }
