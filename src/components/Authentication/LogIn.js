@@ -82,6 +82,9 @@ export default function LogIn(props) {
                 // Refresh the page
                 window.location.reload();
             }
+	##else{
+			
+		}
         } catch (error) {
             console.error("Error fetching data: ", error);
         }
