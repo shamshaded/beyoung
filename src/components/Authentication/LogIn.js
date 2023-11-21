@@ -83,7 +83,7 @@ export default function LogIn(props) {
                 window.location.reload();
             }
 	else{
-                alert(response?.data?.message)
+                alert(response?.data?.message);
             }
         } catch (error) {
             console.error("Error fetching data: ", error);
